@@ -17,6 +17,15 @@
   <main>
     <section class="products-section">
       <h2>Available Products</h2>
+      <!-- New Search Input -->
+      <div class="search-box" style="margin: 1rem 0;">
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="Search products..." 
+          style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;"
+        >
+      </div>
       <div id="product-grid" class="product-grid"></div>
     </section>
 
@@ -24,6 +33,8 @@
       <h2>Your Basket</h2>
       <ul id="cart-items" class="cart-items"></ul>
       <button id="checkout-btn" class="checkout-btn">Checkout</button>
+      <!-- Optional Clear Cart Button -->
+      <button id="clear-cart-btn" class="checkout-btn" style="background: #d32f2f; margin-top: 0.5rem;">Clear Cart</button>
     </aside>
   </main>
 
